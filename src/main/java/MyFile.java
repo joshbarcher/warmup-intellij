@@ -2,6 +2,7 @@ public class MyFile
 {
     public static void main(String[] args)
     {
+        printHeader();
         printMessage("hello, world!");
         printMessage("by: Josh");
     }
@@ -9,5 +10,10 @@ public class MyFile
     private static void printMessage(String message)
     {
         System.out.println(message);
+    }
+
+    private static void printHeader()
+    {
+        System.out.println("******************************");
     }
 }
