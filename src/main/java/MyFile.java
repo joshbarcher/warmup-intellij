@@ -2,6 +2,12 @@ public class MyFile
 {
     public static void main(String[] args)
     {
-        System.out.println("Hello, world!");
+        printMessage("hello, world!");
+        printMessage("by: Josh");
+    }
+
+    private static void printMessage(String message)
+    {
+        System.out.println(message);
     }
 }
