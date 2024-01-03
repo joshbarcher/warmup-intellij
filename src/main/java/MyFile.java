@@ -4,6 +4,8 @@ public class MyFile
     {
         printHeader();
         printMessage("hello, world!");
+
+        printHeader();
         printMessage("by: Josh");
     }
 
