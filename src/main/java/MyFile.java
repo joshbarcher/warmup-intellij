@@ -4,4 +4,14 @@ public class MyFile
     {
         System.out.println("Hello, world!");
     }
+
+    private static void printMessage(String message)
+    {
+        System.out.println(message);
+    }
+
+    private static void printHeader()
+    {
+        System.out.println("******************************");
+    }
 }
